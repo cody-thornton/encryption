@@ -9,7 +9,7 @@ are my own.
 
 To run this program, in terminal:
 
-python3 encryption.py
+python3 rsa_program.py
 
 This will initiate a user interface with four options: (1) Get Keys,
 (2) Encode, (3) Decode, and (4) Quit Program. To encrypt a message, 
