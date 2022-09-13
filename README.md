@@ -1,4 +1,4 @@
-# encryption
+# rsa_program
 
 This project was designed by and completed under the guidance of Professor 
 Elisabeth Stade at the University of Colorado Boulder as part of her course
