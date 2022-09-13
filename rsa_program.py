@@ -252,6 +252,11 @@ def decode(n, d, cipher_text):
 
 
 def user_get_keys():
+    """
+    1 of 3 Helper functions for main()
+    Prompts user for prime numbers 'p' and 'q'.
+    Outputs 'n', 'e', and 'd'.
+    """
     action = "\n--- Get Keys ---\n"
     action += "Enter p: "
     p = int(input(action))
@@ -265,6 +270,12 @@ def user_get_keys():
 
 
 def user_encode():
+    """
+    2 of 3 Helper functions for main()
+    Prompts user for 'n', 'e', and message to encrypt.
+    Outputs encrypted message as array of integer values.
+    Each elt in this array is one encrypted letter. 
+    """
     action = "\n--- Encode ---\n"
     action += "Enter n: "
     n = int(input(action))
@@ -278,6 +289,11 @@ def user_encode():
 
 
 def user_decode():
+    """
+    3 of 3 Helper functions for main()
+    Prompts user for 'n', 'd', and cipher text.
+    Outputs original, decoded message.
+    """
     action = "\n--- Decode ---\n"
     action += "Enter n: "
     n = int(input(action))
