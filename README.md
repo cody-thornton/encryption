@@ -3,8 +3,7 @@
 This project was designed by and completed under the guidance of Professor 
 Elisabeth Stade at the University of Colorado Boulder as part of her course
 in discrete mathematics. The ideas for this simplified version of the RSA
-Algorithm come from Kenneth H. Rosen's [Discrete Mathematics and its Applications] 
-(https://www.amazon.com/Discrete-Mathematics-Its-Applications-Seventh/dp/0073383090). 
+Algorithm come from Kenneth H. Rosen's [Discrete Mathematics and its Applications](https://www.amazon.com/Discrete-Mathematics-Its-Applications-Seventh/dp/0073383090). 
 All code implementations and comments are my own. 
 
 To run this program, in terminal:
